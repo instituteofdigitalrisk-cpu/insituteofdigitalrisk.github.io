@@ -1,0 +1,628 @@
+<!DOCTYPE html><html><head>
+    <style>@layer theme, base, paraflow, components, utilities;</style><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    
+    
+    <style id="moxt-styled">@layer paraflow{@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=PT+Serif:wght@400;700&family=Arimo:wght@400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700&;800;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&family=Merriweather:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Dancing+Script:wght@400;500;600;700&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.pf-body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+}
+}</style>
+<!--FontAwesome version: 6.7.2--><link rel="stylesheet" href="https://static.paraflowcontent.com/public/css/font-awesome/font-awesome.672.css"><!--Tailwind version: 4.0.17--><script src="https://static.paraflowcontent.com/public/js/tailwind/tailwind.js"></script><!--iconify-icon version: 3.0.0--><script src="https://static.paraflowcontent.com/public/js/iconify/iconify-icon-3.0.0.js"></script></head>
+<body id="36:1" title="events.html" orderindex="80" relativetransform="31180, 125" class="pf-body w-[1440px] min-h-[900px]" style="background-color: rgba(255, 255, 255, 1);">
+<header id="36:2" orderindex="80" style="background-color: rgba(255, 255, 255, 1); border-bottom-style: solid; border-color: rgba(232, 232, 232, 1);" class="w-full border-b-[1px]">
+<nav id="36:3" orderindex="80" style="padding: 1.5rem 3rem;" class="flex justify-between items-center w-full">
+<div id="36:4" orderindex="80" class="flex items-center gap-y-12 gap-x-12">
+<div id="36:5" orderindex="80" class="flex items-center gap-y-3 gap-x-3">
+<div id="36:6" orderindex="80" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1);" class="flex justify-center items-center w-10 h-10">
+<iconify-icon id="36:7" orderindex="80" icon="lucide:shield-check" class="text-lg"></iconify-icon>
+</div>
+<span id="36:8" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-xl font-semibold">IDR</span>
+</div>
+<div id="36:9" orderindex="81" class="flex items-center gap-y-8 gap-x-8">
+<a id="36:10" orderindex="80" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(43, 43, 43, 1);" href="#">
+<span id="36:11" orderindex="80">About</span>
+</a>
+<a id="36:12" orderindex="81" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(43, 43, 43, 1);" href="#">
+<span id="36:13" orderindex="80">Services</span>
+</a>
+<a id="36:14" orderindex="82" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(43, 43, 43, 1);" href="#">
+<span id="36:15" orderindex="80">Courses</span>
+</a>
+<a id="36:16" orderindex="83" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(43, 43, 43, 1);" href="#">
+<span id="36:17" orderindex="80">Corporate</span>
+</a>
+<a id="36:18" orderindex="84" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(43, 43, 43, 1);" href="#">
+<span id="36:19" orderindex="80">Research</span>
+</a>
+<a id="36:20" orderindex="85" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(43, 43, 43, 1);" href="#">
+<span id="36:21" orderindex="80">Impact</span>
+</a>
+</div>
+</div>
+<div id="36:22" orderindex="81" class="flex items-center gap-y-6 gap-x-6">
+<div id="36:23" orderindex="80" class="flex items-center gap-y-6 gap-x-6">
+<a id="36:24" orderindex="80" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(200, 90, 40, 1);" href="#">
+<span id="36:25" orderindex="80">Events</span>
+</a>
+<a id="36:26" orderindex="81" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(74, 74, 74, 1);" href="#">
+<span id="36:27" orderindex="80">Blog</span>
+</a>
+<a id="36:28" orderindex="82" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(74, 74, 74, 1);" href="#">
+<span id="36:29" orderindex="80">Partners</span>
+</a>
+<a id="36:30" orderindex="83" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(74, 74, 74, 1);" href="#">
+<span id="36:31" orderindex="80">FAQ</span>
+</a>
+<a id="36:32" orderindex="84" class="hover:text-[#C85A28] text-base flex items-center gap-y-2 gap-x-2 font-semibold" style="color: rgba(74, 74, 74, 1);" href="#">
+<span id="36:33" orderindex="80">Contact</span>
+</a>
+</div>
+<div id="36:34" orderindex="81" class="flex items-center gap-y-4 gap-x-4">
+<button id="36:35" orderindex="80" class="hover:bg-[#9A3D1A] flex items-center" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1); padding: 0.75rem 2rem;">
+<span id="36:36" orderindex="80" class="text-base whitespace-nowrap font-semibold">Enrol Now</span>
+</button>
+<button id="36:37" orderindex="81" class="hover:bg-[#FAFAFA] flex items-center border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(43, 43, 43, 1); padding: 0.75rem 2rem; border-color: rgba(232, 232, 232, 1);">
+<span id="36:38" orderindex="80" class="text-base whitespace-nowrap font-semibold">Request Consultation</span>
+</button>
+</div>
+</div>
+</nav>
+</header>
+<main id="36:39" orderindex="81" class="w-full">
+
+<section id="36:40" orderindex="80" style="background-color: rgba(255, 255, 255, 1); padding: 6rem 10rem;" class="w-full">
+<div id="36:41" orderindex="80" style="margin-right: auto; margin-left: auto;" class="max-w-6xl">
+<div id="36:42" orderindex="80" class="text-center mb-16">
+<h1 id="36:43" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-6xl tracking-tight mb-6 font-semibold">EVENTS &amp; WEBINARS</h1>
+<p id="36:44" orderindex="81" style="margin-right: auto; margin-left: auto; line-height: 1.625; color: rgba(74, 74, 74, 1); font-size: 1.25rem;" class="max-w-192">Strategic learning experiences for cybersecurity professionals through live workshops, executive briefings, and industry conferences</p>
+</div>
+</div>
+</section>
+
+<section id="36:45" orderindex="81" style="background-color: rgba(250, 250, 250, 1); padding: 3rem 10rem;" class="w-full">
+<div id="36:46" orderindex="80" style="margin-right: auto; margin-left: auto;" class="max-w-6xl">
+<div id="36:47" orderindex="80" class="flex justify-between items-center mb-8">
+<div id="36:48" orderindex="80" class="flex items-center gap-y-6 gap-x-6">
+<button id="36:49" orderindex="80" class="hover:text-[#C85A28] flex items-center gap-y-2 gap-x-2" style="color: rgba(43, 43, 43, 1);">
+<iconify-icon id="36:50" orderindex="80" icon="lucide:chevron-left" class="text-lg"></iconify-icon>
+<span id="36:51" orderindex="81" class="font-semibold">Previous</span>
+</button>
+<h2 id="36:52" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-3xl font-semibold">February 2025</h2>
+<button id="36:53" orderindex="82" class="hover:text-[#C85A28] flex items-center gap-y-2 gap-x-2" style="color: rgba(43, 43, 43, 1);">
+<span id="36:54" orderindex="80" class="font-semibold">Next</span>
+<iconify-icon id="36:55" orderindex="81" icon="lucide:chevron-right" class="text-lg"></iconify-icon>
+</button>
+</div>
+<div id="36:56" orderindex="81" class="overflow-x-auto flex gap-y-2 gap-x-2">
+<label id="36:57" orderindex="80" class="flex items-center">
+<input id="36:58" orderindex="80" class="peer overflow-x-hidden overflow-y-hidden whitespace-nowrap absolute w-px h-px -m-px" style="clip-path: inset( 50% ); padding: 0; border-width: 0;" type="radio" checked="">
+<div id="36:59" orderindex="81" class="hover:bg-[#FAFAFA] text-sm whitespace-nowrap font-semibold border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(74, 74, 74, 1); padding: 0.5rem 1rem; border-color: rgba(232, 232, 232, 1);">Month</div>
+</label>
+<label id="36:60" orderindex="81" class="flex items-center">
+<input id="36:61" orderindex="80" class="peer overflow-x-hidden overflow-y-hidden whitespace-nowrap absolute w-px h-px -m-px" style="clip-path: inset( 50% ); padding: 0; border-width: 0;" type="radio">
+<div id="36:62" orderindex="81" class="hover:bg-[#FAFAFA] text-sm whitespace-nowrap font-semibold border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(74, 74, 74, 1); padding: 0.5rem 1rem; border-color: rgba(232, 232, 232, 1);">Week</div>
+</label>
+<label id="36:63" orderindex="82" class="flex items-center">
+<input id="36:64" orderindex="80" class="peer overflow-x-hidden overflow-y-hidden whitespace-nowrap absolute w-px h-px -m-px" style="clip-path: inset( 50% ); padding: 0; border-width: 0;" type="radio">
+<div id="36:65" orderindex="81" class="hover:bg-[#FAFAFA] text-sm whitespace-nowrap font-semibold border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(74, 74, 74, 1); padding: 0.5rem 1rem; border-color: rgba(232, 232, 232, 1);">List</div>
+</label>
+</div>
+</div>
+
+<div id="36:66" orderindex="81" class="overflow-x-auto flex gap-y-2 gap-x-2 mb-12">
+<label id="36:67" orderindex="80" class="flex items-center">
+<input id="36:68" orderindex="80" class="peer overflow-x-hidden overflow-y-hidden whitespace-nowrap absolute w-px h-px -m-px" style="clip-path: inset( 50% ); padding: 0; border-width: 0;" type="radio" checked="">
+<div id="36:69" orderindex="81" class="hover:bg-[#FAFAFA] text-sm whitespace-nowrap font-semibold border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(74, 74, 74, 1); padding: 0.5rem 1rem; border-color: rgba(232, 232, 232, 1);">All Events</div>
+</label>
+<label id="36:70" orderindex="81" class="flex items-center">
+<input id="36:71" orderindex="80" class="peer overflow-x-hidden overflow-y-hidden whitespace-nowrap absolute w-px h-px -m-px" style="clip-path: inset( 50% ); padding: 0; border-width: 0;" type="radio">
+<div id="36:72" orderindex="81" class="hover:bg-[#FAFAFA] text-sm whitespace-nowrap font-semibold border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(74, 74, 74, 1); padding: 0.5rem 1rem; border-color: rgba(232, 232, 232, 1);">Webinars</div>
+</label>
+<label id="36:73" orderindex="82" class="flex items-center">
+<input id="36:74" orderindex="80" class="peer overflow-x-hidden overflow-y-hidden whitespace-nowrap absolute w-px h-px -m-px" style="clip-path: inset( 50% ); padding: 0; border-width: 0;" type="radio">
+<div id="36:75" orderindex="81" class="hover:bg-[#FAFAFA] text-sm whitespace-nowrap font-semibold border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(74, 74, 74, 1); padding: 0.5rem 1rem; border-color: rgba(232, 232, 232, 1);">Workshops</div>
+</label>
+<label id="36:76" orderindex="83" class="flex items-center">
+<input id="36:77" orderindex="80" class="peer overflow-x-hidden overflow-y-hidden whitespace-nowrap absolute w-px h-px -m-px" style="clip-path: inset( 50% ); padding: 0; border-width: 0;" type="radio">
+<div id="36:78" orderindex="81" class="hover:bg-[#FAFAFA] text-sm whitespace-nowrap font-semibold border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(74, 74, 74, 1); padding: 0.5rem 1rem; border-color: rgba(232, 232, 232, 1);">Conferences</div>
+</label>
+<label id="36:79" orderindex="84" class="flex items-center">
+<input id="36:80" orderindex="80" class="peer overflow-x-hidden overflow-y-hidden whitespace-nowrap absolute w-px h-px -m-px" style="clip-path: inset( 50% ); padding: 0; border-width: 0;" type="radio">
+<div id="36:81" orderindex="81" class="hover:bg-[#FAFAFA] text-sm whitespace-nowrap font-semibold border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(74, 74, 74, 1); padding: 0.5rem 1rem; border-color: rgba(232, 232, 232, 1);">Virtual Sessions</div>
+</label>
+</div>
+</div>
+</section>
+
+<section id="36:82" orderindex="82" style="background-color: rgba(255, 255, 255, 1); padding: 4rem 10rem;" class="w-full">
+<div id="36:83" orderindex="80" style="margin-right: auto; margin-left: auto;" class="max-w-6xl">
+
+<div id="36:84" orderindex="80" style="background-color: rgba(232, 232, 232, 1);" class="grid grid-cols-7 gap-y-[1px] gap-x-[1px] mb-px">
+<div id="36:85" orderindex="80" style="background-color: rgba(255, 255, 255, 1);" class="text-center p-4">
+<span id="36:86" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Sun</span>
+</div>
+<div id="36:87" orderindex="81" style="background-color: rgba(255, 255, 255, 1);" class="text-center p-4">
+<span id="36:88" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Mon</span>
+</div>
+<div id="36:89" orderindex="82" style="background-color: rgba(255, 255, 255, 1);" class="text-center p-4">
+<span id="36:90" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Tue</span>
+</div>
+<div id="36:91" orderindex="83" style="background-color: rgba(255, 255, 255, 1);" class="text-center p-4">
+<span id="36:92" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Wed</span>
+</div>
+<div id="36:93" orderindex="84" style="background-color: rgba(255, 255, 255, 1);" class="text-center p-4">
+<span id="36:94" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Thu</span>
+</div>
+<div id="36:95" orderindex="85" style="background-color: rgba(255, 255, 255, 1);" class="text-center p-4">
+<span id="36:96" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Fri</span>
+</div>
+<div id="36:97" orderindex="86" style="background-color: rgba(255, 255, 255, 1);" class="text-center p-4">
+<span id="36:98" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Sat</span>
+</div>
+</div>
+
+<div id="36:99" orderindex="81" style="background-color: rgba(232, 232, 232, 1);" class="grid grid-cols-7 gap-y-[1px] gap-x-[1px]">
+
+<div id="36:100" orderindex="80" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:101" orderindex="80" style="color: rgba(184, 184, 184, 1);" class="text-sm">26</span>
+</div>
+<div id="36:102" orderindex="81" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:103" orderindex="80" style="color: rgba(184, 184, 184, 1);" class="text-sm">27</span>
+</div>
+<div id="36:104" orderindex="82" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:105" orderindex="80" style="color: rgba(184, 184, 184, 1);" class="text-sm">28</span>
+</div>
+<div id="36:106" orderindex="83" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:107" orderindex="80" style="color: rgba(184, 184, 184, 1);" class="text-sm">29</span>
+</div>
+<div id="36:108" orderindex="84" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:109" orderindex="80" style="color: rgba(184, 184, 184, 1);" class="text-sm">30</span>
+</div>
+<div id="36:110" orderindex="85" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:111" orderindex="80" style="color: rgba(184, 184, 184, 1);" class="text-sm">31</span>
+</div>
+<div id="36:112" orderindex="86" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:113" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">1</span>
+</div>
+
+<div id="36:114" orderindex="87" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:115" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">2</span>
+</div>
+<div id="36:116" orderindex="88" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:117" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">3</span>
+<div id="36:118" orderindex="81" class="mt-2">
+<div id="36:119" orderindex="80" style="background-color: rgba(0, 102, 204, 1); color: rgba(255, 255, 255, 1); padding: 0.25rem 0.5rem;" class="text-xs mb-1">
+<span id="36:120" orderindex="80">10:00 NIST 2.0 Overview</span>
+</div>
+</div>
+</div>
+<div id="36:121" orderindex="89" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:122" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">4</span>
+</div>
+<div id="36:123" orderindex="8a" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:124" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">5</span>
+<div id="36:125" orderindex="81" class="mt-2">
+<div id="36:126" orderindex="80" style="background-color: rgba(107, 63, 160, 1); color: rgba(255, 255, 255, 1); padding: 0.25rem 0.5rem;" class="text-xs mb-1">
+<span id="36:127" orderindex="80">14:00 AI Risk Workshop</span>
+</div>
+</div>
+</div>
+<div id="36:128" orderindex="8b" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:129" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">6</span>
+</div>
+<div id="36:130" orderindex="8c" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:131" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">7</span>
+</div>
+<div id="36:132" orderindex="8d" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:133" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">8</span>
+</div>
+
+<div id="36:134" orderindex="8e" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:135" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">9</span>
+</div>
+<div id="36:136" orderindex="8f" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:137" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">10</span>
+</div>
+<div id="36:138" orderindex="90" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:139" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">11</span>
+<div id="36:140" orderindex="81" class="mt-2">
+<div id="36:141" orderindex="80" style="background-color: rgba(0, 112, 60, 1); color: rgba(255, 255, 255, 1); padding: 0.25rem 0.5rem;" class="text-xs mb-1">
+<span id="36:142" orderindex="80">09:30 NCSC CAF Update</span>
+</div>
+</div>
+</div>
+<div id="36:143" orderindex="91" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:144" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">12</span>
+</div>
+<div id="36:145" orderindex="92" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:146" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">13</span>
+<div id="36:147" orderindex="81" class="mt-2">
+<div id="36:148" orderindex="80" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1); padding: 0.25rem 0.5rem;" class="text-xs mb-1">
+<span id="36:149" orderindex="80">16:00 Leadership Summit</span>
+</div>
+</div>
+</div>
+<div id="36:150" orderindex="93" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:151" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">14</span>
+</div>
+<div id="36:152" orderindex="94" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:153" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">15</span>
+</div>
+
+<div id="36:154" orderindex="95" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:155" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">16</span>
+</div>
+<div id="36:156" orderindex="96" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:157" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">17</span>
+</div>
+<div id="36:158" orderindex="97" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:159" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">18</span>
+<div id="36:160" orderindex="81" class="mt-2">
+<div id="36:161" orderindex="80" style="background-color: rgba(204, 0, 0, 1); color: rgba(255, 255, 255, 1); padding: 0.25rem 0.5rem;" class="text-xs mb-1">
+<span id="36:162" orderindex="80">11:00 ISO 27001:2022</span>
+</div>
+</div>
+</div>
+<div id="36:163" orderindex="98" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:164" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">19</span>
+</div>
+<div id="36:165" orderindex="99" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:166" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">20</span>
+</div>
+<div id="36:167" orderindex="9a" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:168" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">21</span>
+</div>
+<div id="36:169" orderindex="9b" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:170" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">22</span>
+</div>
+
+<div id="36:171" orderindex="9c" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:172" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">23</span>
+</div>
+<div id="36:173" orderindex="9d" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:174" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">24</span>
+</div>
+<div id="36:175" orderindex="9e" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:176" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">25</span>
+<div id="36:177" orderindex="81" class="mt-2">
+<div id="36:178" orderindex="80" style="background-color: rgba(0, 128, 128, 1); color: rgba(255, 255, 255, 1); padding: 0.25rem 0.5rem;" class="text-xs mb-1">
+<span id="36:179" orderindex="80">13:00 CISO Roundtable</span>
+</div>
+</div>
+</div>
+<div id="36:180" orderindex="9f" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:181" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">26</span>
+</div>
+<div id="36:182" orderindex="a0" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:183" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">27</span>
+</div>
+<div id="36:184" orderindex="a1" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:185" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">28</span>
+</div>
+<div id="36:186" orderindex="a2" style="background-color: rgba(255, 255, 255, 1);" class="relative min-h-[120px] p-4">
+<span id="36:187" orderindex="80" style="color: rgba(184, 184, 184, 1);" class="text-sm">1</span>
+</div>
+</div>
+</div>
+</section>
+
+<section id="36:188" orderindex="83" style="background-color: rgba(250, 250, 250, 1); padding: 4rem 10rem;" class="w-full">
+<div id="36:189" orderindex="80" style="margin-right: auto; margin-left: auto;" class="max-w-6xl">
+<div id="36:190" orderindex="80" class="text-center mb-16">
+<h2 id="36:191" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-3xl mb-4 font-semibold">UPCOMING EVENTS</h2>
+<p id="36:192" orderindex="81" style="margin-right: auto; margin-left: auto; color: rgba(74, 74, 74, 1);" class="text-xl max-w-192">Strategic learning experiences designed for cybersecurity professionals at all levels</p>
+</div>
+<div id="36:193" orderindex="81" class="grid grid-cols-1 gap-y-8 gap-x-8">
+
+<div id="36:194" orderindex="80" class="hover:bg-[#FCFCFC] flex gap-y-8 gap-x-8 p-8" style="background-color: rgba(255, 255, 255, 1);">
+<div id="36:195" orderindex="80" class="flex flex-col items-center min-w-fit">
+<div id="36:196" orderindex="80" style="background-color: rgba(250, 250, 250, 1); padding: 0.75rem 1rem;" class="text-center">
+<span id="36:197" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Feb</span>
+<div id="36:198" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-2xl font-semibold">03</div>
+</div>
+<span id="36:199" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-sm mt-2">10:00 GMT</span>
+</div>
+<div id="36:200" orderindex="81" style="flex-basis: 0%;" class="grow shrink">
+<div id="36:201" orderindex="80" class="flex flex-wrap gap-y-2 gap-x-2 mb-4">
+<div id="36:202" orderindex="80" style="background-color: rgba(0, 102, 204, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:203" orderindex="80">NIST CSF</span>
+</div>
+<div id="36:204" orderindex="81" style="background-color: rgba(0, 128, 128, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:205" orderindex="80">WEBINAR</span>
+</div>
+</div>
+<h3 id="36:206" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-xl mb-3 font-semibold">NIST Cybersecurity Framework 2.0: Strategic Implementation for Enterprise Leaders</h3>
+<p id="36:207" orderindex="82" style="color: rgba(74, 74, 74, 1);" class="text-base mb-4">Comprehensive overview of the updated framework with practical guidance for organizational implementation. Led by active CISO practitioners with real-world case studies.</p>
+<div id="36:208" orderindex="83" class="flex justify-between items-center">
+<div id="36:209" orderindex="80" class="flex items-center gap-y-4 gap-x-4">
+<img id="36:210" orderindex="80" alt="Professional headshot of cybersecurity expert presenting NIST framework updates" src="https://static.paraflowcontent.com/public/resource/image/5bb92dbe-0dc8-4084-ba44-492e8ca938b5.jpeg" class="w-10 h-10 object-cover rounded-full">
+<div id="36:211" orderindex="81">
+<p id="36:212" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">Dr. Sarah Mitchell</p>
+<p id="36:213" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-xs">CISO, Global Financial Services</p>
+</div>
+</div>
+<div id="36:214" orderindex="81" class="flex items-center gap-y-4 gap-x-4">
+<div id="36:215" orderindex="80" class="flex items-center gap-y-2 gap-x-2">
+<iconify-icon id="36:216" orderindex="80" style="color: rgba(138, 138, 138, 1);" icon="lucide:users" class="text-sm"></iconify-icon>
+<span id="36:217" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-sm">Virtual Session</span>
+</div>
+<button id="36:218" orderindex="81" class="hover:bg-[#9A3D1A] flex items-center" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1); padding: 0.5rem 1.5rem;">
+<span id="36:219" orderindex="80" class="text-sm font-semibold">Register</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="36:220" orderindex="81" class="hover:bg-[#FCFCFC] flex gap-y-8 gap-x-8 p-8" style="background-color: rgba(255, 255, 255, 1);">
+<div id="36:221" orderindex="80" class="flex flex-col items-center min-w-fit">
+<div id="36:222" orderindex="80" style="background-color: rgba(250, 250, 250, 1); padding: 0.75rem 1rem;" class="text-center">
+<span id="36:223" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Feb</span>
+<div id="36:224" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-2xl font-semibold">05</div>
+</div>
+<span id="36:225" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-sm mt-2">14:00 GMT</span>
+</div>
+<div id="36:226" orderindex="81" style="flex-basis: 0%;" class="grow shrink">
+<div id="36:227" orderindex="80" class="flex flex-wrap gap-y-2 gap-x-2 mb-4">
+<div id="36:228" orderindex="80" style="background-color: rgba(107, 63, 160, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:229" orderindex="80">AI Governance</span>
+</div>
+<div id="36:230" orderindex="81" style="background-color: rgba(200, 90, 40, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:231" orderindex="80">WORKSHOP</span>
+</div>
+</div>
+<h3 id="36:232" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-xl mb-3 font-semibold">AI Risk Management: Practical Governance Workshop</h3>
+<p id="36:233" orderindex="82" style="color: rgba(74, 74, 74, 1);" class="text-base mb-4">Hands-on session covering AI risk assessment, governance frameworks, and compliance strategies. Interactive exercises with enterprise AI deployment scenarios.</p>
+<div id="36:234" orderindex="83" class="flex justify-between items-center">
+<div id="36:235" orderindex="80" class="flex items-center gap-y-4 gap-x-4">
+<img id="36:236" orderindex="80" alt="AI governance expert and consultant in professional setting" src="https://static.paraflowcontent.com/public/resource/image/ac23fd25-9e85-4edc-a1ec-743f896bbf1a.jpeg" class="w-10 h-10 object-cover rounded-full">
+<div id="36:237" orderindex="81">
+<p id="36:238" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">Prof. James Chen</p>
+<p id="36:239" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-xs">AI Risk Consultant, IDR Faculty</p>
+</div>
+</div>
+<div id="36:240" orderindex="81" class="flex items-center gap-y-4 gap-x-4">
+<div id="36:241" orderindex="80" class="flex items-center gap-y-2 gap-x-2">
+</div>
+<button id="36:242" orderindex="81" class="hover:bg-[#9A3D1A] flex items-center" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1); padding: 0.5rem 1.5rem;">
+<span id="36:243" orderindex="80" class="text-sm font-semibold">Register</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="36:244" orderindex="82" class="hover:bg-[#FCFCFC] flex gap-y-8 gap-x-8 p-8" style="background-color: rgba(255, 255, 255, 1);">
+<div id="36:245" orderindex="80" class="flex flex-col items-center min-w-fit">
+<div id="36:246" orderindex="80" style="background-color: rgba(250, 250, 250, 1); padding: 0.75rem 1rem;" class="text-center">
+<span id="36:247" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Feb</span>
+<div id="36:248" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-2xl font-semibold">11</div>
+</div>
+<span id="36:249" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-sm mt-2">09:30 GMT</span>
+</div>
+<div id="36:250" orderindex="81" style="flex-basis: 0%;" class="grow shrink">
+<div id="36:251" orderindex="80" class="flex flex-wrap gap-y-2 gap-x-2 mb-4">
+<div id="36:252" orderindex="80" style="background-color: rgba(0, 112, 60, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:253" orderindex="80">NCSC CAF</span>
+</div>
+<div id="36:254" orderindex="81" style="background-color: rgba(0, 128, 128, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:255" orderindex="80">WEBINAR</span>
+</div>
+</div>
+<h3 id="36:256" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-xl mb-3 font-semibold">NCSC Cyber Assessment Framework: 2025 Updates</h3>
+<p id="36:257" orderindex="82" style="color: rgba(74, 74, 74, 1);" class="text-base mb-4">Latest developments in UK cyber resilience standards with guidance for organizational assessment and improvement planning.</p>
+<div id="36:258" orderindex="83" class="flex justify-between items-center">
+<div id="36:259" orderindex="80" class="flex items-center gap-y-4 gap-x-4">
+<img id="36:260" orderindex="80" alt="UK cybersecurity policy expert and former government advisor" src="https://static.paraflowcontent.com/public/resource/image/92759bd1-c56d-440a-a247-322d3f293512.jpeg" class="w-10 h-10 object-cover rounded-full">
+<div id="36:261" orderindex="81">
+<p id="36:262" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">Dr. Emma Williams</p>
+<p id="36:263" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-xs">Former NCSC Principal Advisor</p>
+</div>
+</div>
+<div id="36:264" orderindex="81" class="flex items-center gap-y-4 gap-x-4">
+<div id="36:265" orderindex="80" class="flex items-center gap-y-2 gap-x-2">
+<iconify-icon id="36:266" orderindex="80" style="color: rgba(138, 138, 138, 1);" icon="lucide:users" class="text-sm"></iconify-icon>
+<span id="36:267" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-sm">Virtual Session</span>
+</div>
+<button id="36:268" orderindex="81" class="hover:bg-[#9A3D1A] flex items-center" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1); padding: 0.5rem 1.5rem;">
+<span id="36:269" orderindex="80" class="text-sm font-semibold">Register</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="36:270" orderindex="83" class="hover:bg-[#FCFCFC] flex gap-y-8 gap-x-8 p-8" style="background-color: rgba(255, 255, 255, 1);">
+<div id="36:271" orderindex="80" class="flex flex-col items-center min-w-fit">
+<div id="36:272" orderindex="80" style="background-color: rgba(250, 250, 250, 1); padding: 0.75rem 1rem;" class="text-center">
+<span id="36:273" orderindex="80" style="text-transform: uppercase; color: rgba(138, 138, 138, 1);" class="text-sm tracking-wider font-semibold">Feb</span>
+<div id="36:274" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-2xl font-semibold">13</div>
+</div>
+<span id="36:275" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-sm mt-2">16:00 GMT</span>
+</div>
+<div id="36:276" orderindex="81" style="flex-basis: 0%;" class="grow shrink">
+<div id="36:277" orderindex="80" class="flex flex-wrap gap-y-2 gap-x-2 mb-4">
+<div id="36:278" orderindex="80" style="background-color: rgba(200, 90, 40, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:279" orderindex="80">Executive</span>
+</div>
+<div id="36:280" orderindex="81" style="background-color: rgba(107, 63, 160, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:281" orderindex="80">CONFERENCE</span>
+</div>
+</div>
+<h3 id="36:282" orderindex="81" style="color: rgba(26, 26, 26, 1);" class="text-xl mb-3 font-semibold">Cyber Leadership Summit: Board-Level Risk Communication</h3>
+<p id="36:283" orderindex="82" style="color: rgba(74, 74, 74, 1);" class="text-base mb-4">Executive forum covering crisis management, legal defensibility, and stakeholder communication for cyber incidents. Limited to 50 C-suite participants.</p>
+<div id="36:284" orderindex="83" class="flex justify-between items-center">
+<div id="36:285" orderindex="80" class="flex items-center gap-y-4 gap-x-4">
+<img id="36:286" orderindex="80" alt="Senior executive cybersecurity leader in boardroom setting" src="https://static.paraflowcontent.com/public/resource/image/7d999c47-db0a-4396-9a4b-0541bcd0f238.jpeg" class="w-10 h-10 object-cover rounded-full">
+<div id="36:287" orderindex="81">
+<p id="36:288" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-sm font-semibold">Multiple Speakers</p>
+<p id="36:289" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-xs">FTSE 100 CISOs &amp; Board Directors</p>
+</div>
+</div>
+<div id="36:290" orderindex="81" class="flex items-center gap-y-4 gap-x-4">
+<div id="36:291" orderindex="80" class="flex items-center gap-y-2 gap-x-2">
+<iconify-icon id="36:292" orderindex="80" style="color: rgba(138, 138, 138, 1);" icon="lucide:map-pin" class="text-sm"></iconify-icon>
+<span id="36:293" orderindex="81" style="color: rgba(138, 138, 138, 1);" class="text-sm">Canary Wharf</span>
+</div>
+<button id="36:294" orderindex="81" class="hover:bg-[#FAFAFA] flex items-center border-[1px] border-solid" style="background-color: rgba(255, 255, 255, 1); color: rgba(43, 43, 43, 1); padding: 0.5rem 1.5rem; border-color: rgba(232, 232, 232, 1);">
+<span id="36:295" orderindex="80" class="text-sm font-semibold">Invitation Only</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="36:296" orderindex="82" class="text-center mt-12">
+<button id="36:297" orderindex="80" class="hover:bg-[#9A3D1A] flex items-center" style="background-color: rgba(200, 90, 40, 1); margin-right: auto; margin-left: auto; color: rgba(255, 255, 255, 1); padding: 0.75rem 2rem;">
+<span id="36:298" orderindex="80" class="text-base font-semibold">View All Upcoming Events</span>
+</button>
+</div>
+</div>
+</section>
+
+<section id="36:299" orderindex="84" style="background-color: rgba(255, 255, 255, 1); padding: 4rem 10rem;" class="w-full">
+<div id="36:300" orderindex="80" style="margin-right: auto; margin-left: auto;" class="max-w-6xl">
+<div id="36:301" orderindex="80" class="text-center mb-16">
+<h2 id="36:302" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-3xl mb-4 font-semibold">EVENT CATEGORIES</h2>
+</div>
+<div id="36:303" orderindex="81" class="grid grid-cols-3 gap-y-8 gap-x-8">
+
+<div id="36:304" orderindex="80" class="hover:bg-[#FCFCFC] flex flex-col gap-y-6 gap-x-6 p-8" style="background-color: rgba(250, 250, 250, 1);">
+<div id="36:305" orderindex="80" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1);" class="flex justify-center items-center w-12 h-12">
+<iconify-icon id="36:306" orderindex="80" icon="lucide:video" class="text-lg"></iconify-icon>
+</div>
+<div id="36:307" orderindex="81" class="flex flex-col gap-y-3 gap-x-3">
+<h3 id="36:308" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-xl font-semibold">Interactive Webinars</h3>
+<p id="36:309" orderindex="81" style="color: rgba(74, 74, 74, 1);" class="text-base">Live virtual sessions with framework updates, compliance guidance, and Q&amp;A with industry experts</p>
+<div id="36:310" orderindex="82" class="flex flex-wrap gap-y-2 gap-x-2">
+<div id="36:311" orderindex="80" style="background-color: rgba(0, 102, 204, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:312" orderindex="80">NIST CSF</span>
+</div>
+<div id="36:313" orderindex="81" style="background-color: rgba(0, 112, 60, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:314" orderindex="80">NCSC CAF</span>
+</div>
+</div>
+</div>
+</div>
+
+<div id="36:315" orderindex="81" class="hover:bg-[#FCFCFC] flex flex-col gap-y-6 gap-x-6 p-8" style="background-color: rgba(250, 250, 250, 1);">
+<div id="36:316" orderindex="80" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1);" class="flex justify-center items-center w-12 h-12">
+<iconify-icon id="36:317" orderindex="80" icon="lucide:users-round" class="text-lg"></iconify-icon>
+</div>
+<div id="36:318" orderindex="81" class="flex flex-col gap-y-3 gap-x-3">
+<h3 id="36:319" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-xl font-semibold">Hands-On Workshops</h3>
+<p id="36:320" orderindex="81" style="color: rgba(74, 74, 74, 1);" class="text-base">Intensive practical sessions with real-world scenarios, case studies, and interactive exercises</p>
+<div id="36:321" orderindex="82" class="flex flex-wrap gap-y-2 gap-x-2">
+<div id="36:322" orderindex="80" style="background-color: rgba(107, 63, 160, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:323" orderindex="80">AI Governance</span>
+</div>
+<div id="36:324" orderindex="81" style="background-color: rgba(204, 0, 0, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:325" orderindex="80">ISO 27001</span>
+</div>
+</div>
+</div>
+</div>
+
+<div id="36:326" orderindex="82" class="hover:bg-[#FCFCFC] flex flex-col gap-y-6 gap-x-6 p-8" style="background-color: rgba(250, 250, 250, 1);">
+<div id="36:327" orderindex="80" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1);" class="flex justify-center items-center w-12 h-12">
+<iconify-icon id="36:328" orderindex="80" icon="lucide:presentation" class="text-lg"></iconify-icon>
+</div>
+<div id="36:329" orderindex="81" class="flex flex-col gap-y-3 gap-x-3">
+<h3 id="36:330" orderindex="80" style="color: rgba(26, 26, 26, 1);" class="text-xl font-semibold">Executive Conferences</h3>
+<p id="36:331" orderindex="81" style="color: rgba(74, 74, 74, 1);" class="text-base">Strategic forums for C-suite networking, policy updates, and board-level risk communication</p>
+<div id="36:332" orderindex="82" class="flex flex-wrap gap-y-2 gap-x-2">
+<div id="36:333" orderindex="80" style="background-color: rgba(0, 128, 128, 1); text-transform: uppercase; row-gap: 0.375rem; column-gap: 0.375rem; color: rgba(255, 255, 255, 1); padding: 0.25rem 0.75rem;" class="text-xs tracking-wider inline-flex items-center font-semibold">
+<span id="36:334" orderindex="80">Executive Only</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer id="36:335" orderindex="82" style="background-color: rgba(26, 26, 26, 1); color: rgba(255, 255, 255, 1); padding: 4rem 10rem;" class="w-full">
+<div id="36:336" orderindex="80" style="margin-right: auto; margin-left: auto;" class="max-w-6xl">
+<div id="36:337" orderindex="80" class="grid grid-cols-5 gap-y-8 gap-x-8 mb-12">
+<div id="36:338" orderindex="80" class="flex flex-col gap-y-4 gap-x-4">
+<div id="36:339" orderindex="80" class="flex items-center gap-y-3 gap-x-3 mb-4">
+<div id="36:340" orderindex="80" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1);" class="flex justify-center items-center w-10 h-10">
+<iconify-icon id="36:341" orderindex="80" icon="lucide:shield-check" class="text-lg"></iconify-icon>
+</div>
+<span id="36:342" orderindex="81" class="text-xl font-semibold">IDR</span>
+</div>
+<p id="36:343" orderindex="81" style="color: rgba(184, 184, 184, 1);" class="text-sm">Institute of Digital Risk</p>
+<p id="36:344" orderindex="82" style="color: rgba(184, 184, 184, 1);" class="text-sm">London | Mumbai</p>
+</div>
+<div id="36:345" orderindex="81" class="flex flex-col gap-y-3 gap-x-3">
+<h4 id="36:346" orderindex="80" style="color: rgba(255, 255, 255, 1);" class="text-base mb-2 font-semibold">Learn</h4>
+<a id="36:347" orderindex="81" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Academy</a>
+<a id="36:348" orderindex="82" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Courses</a>
+<a id="36:349" orderindex="83" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Corporate Training</a>
+<a id="36:350" orderindex="84" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Events</a>
+</div>
+<div id="36:351" orderindex="82" class="flex flex-col gap-y-3 gap-x-3">
+<h4 id="36:352" orderindex="80" style="color: rgba(255, 255, 255, 1);" class="text-base mb-2 font-semibold">Services</h4>
+<a id="36:353" orderindex="81" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Digital Risk Advisory</a>
+<a id="36:354" orderindex="82" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Cyber Resilience</a>
+<a id="36:355" orderindex="83" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">AI Risk</a>
+<a id="36:356" orderindex="84" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Professional Development</a>
+</div>
+<div id="36:357" orderindex="83" class="flex flex-col gap-y-3 gap-x-3">
+<h4 id="36:358" orderindex="80" style="color: rgba(255, 255, 255, 1);" class="text-base mb-2 font-semibold">About</h4>
+<a id="36:359" orderindex="81" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Our Story</a>
+<a id="36:360" orderindex="82" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Leadership</a>
+<a id="36:361" orderindex="83" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Accreditation</a>
+<a id="36:362" orderindex="84" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Partners</a>
+</div>
+<div id="36:363" orderindex="84" class="flex flex-col gap-y-3 gap-x-3">
+<h4 id="36:364" orderindex="80" style="color: rgba(255, 255, 255, 1);" class="text-base mb-2 font-semibold">Community</h4>
+<a id="36:365" orderindex="81" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Social Impact</a>
+<a id="36:366" orderindex="82" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Research</a>
+<a id="36:367" orderindex="83" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Blog</a>
+<a id="36:368" orderindex="84" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Testimonials</a>
+</div>
+</div>
+<div id="36:369" orderindex="81" style="border-top-style: solid; border-color: rgba(74, 74, 74, 1);" class="mb-8 pt-8 border-t-[1px]">
+<div id="36:370" orderindex="80" class="opacity-60 flex justify-center items-center gap-y-8 gap-x-8">
+<iconify-icon id="36:371" orderindex="80" style="color: rgba(184, 184, 184, 1);" icon="simple-icons:imperial" class="text-2xl"></iconify-icon>
+<iconify-icon id="36:372" orderindex="81" style="color: rgba(184, 184, 184, 1);" icon="simple-icons:university" class="text-2xl"></iconify-icon>
+<iconify-icon id="36:373" orderindex="82" style="color: rgba(184, 184, 184, 1);" icon="simple-icons:ucl" class="text-2xl"></iconify-icon>
+<iconify-icon id="36:374" orderindex="83" style="color: rgba(184, 184, 184, 1);" icon="simple-icons:cplusplus" class="text-2xl"></iconify-icon>
+</div>
+</div>
+<div id="36:375" orderindex="82" style="border-top-style: solid; border-color: rgba(74, 74, 74, 1);" class="flex justify-between items-center pt-8 border-t-[1px]">
+<div id="36:376" orderindex="80" class="flex items-center gap-y-6 gap-x-6">
+<p id="36:377" orderindex="80" style="color: rgba(184, 184, 184, 1);" class="text-sm">© 2025 Institute of Digital Risk. All Rights Reserved.</p>
+<div id="36:378" orderindex="81" class="flex gap-y-4 gap-x-4">
+<a id="36:379" orderindex="80" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Privacy Policy</a>
+<a id="36:380" orderindex="81" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Terms of Service</a>
+<a id="36:381" orderindex="82" class="hover:text-white text-sm" style="color: rgba(184, 184, 184, 1);" href="#">Cookie Policy</a>
+</div>
+</div>
+<div id="36:382" orderindex="81" class="flex items-center gap-y-6 gap-x-6">
+<div id="36:383" orderindex="80" class="flex gap-y-4 gap-x-4">
+<a id="36:384" orderindex="80" class="hover:text-white" style="color: rgba(184, 184, 184, 1);" href="#">
+<iconify-icon id="36:385" orderindex="80" icon="lucide:linkedin" class="text-lg"></iconify-icon>
+</a>
+<a id="36:386" orderindex="81" class="hover:text-white" style="color: rgba(184, 184, 184, 1);" href="#">
+<iconify-icon id="36:387" orderindex="80" icon="lucide:twitter" class="text-lg"></iconify-icon>
+</a>
+<a id="36:388" orderindex="82" class="hover:text-white" style="color: rgba(184, 184, 184, 1);" href="#">
+<iconify-icon id="36:389" orderindex="80" icon="lucide:youtube" class="text-lg"></iconify-icon>
+</a>
+</div>
+<button id="36:390" orderindex="81" class="hover:bg-[#9A3D1A] flex items-center" style="background-color: rgba(200, 90, 40, 1); color: rgba(255, 255, 255, 1); padding: 0.5rem 1.5rem;">
+<span id="36:391" orderindex="80" class="text-sm whitespace-nowrap font-semibold">Apply for Next Cohort</span>
+</button>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+</body></html>
